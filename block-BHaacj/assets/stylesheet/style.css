@@ -1,0 +1,308 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+main {
+    background-color: rgb(230,230,230);
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+}
+/* Flex */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-50 {
+    flex: 0 1 50%;
+}
+.wrapper {
+    display: flex;
+}
+/* Margin */
+.margin {
+    margin: 0 80px;
+}
+/* Header */
+.header {
+    padding: 25px 0;
+}
+.brand h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.nav-menu li {
+    margin-right: 35px;
+}
+.nav-menu a {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+/* Section */
+/* home */
+.home {
+    background:  url(../media/banner.jpg);
+    background-size: cover;
+    margin: 0 80px;
+    padding: 80px 0;
+}
+.home h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+.home h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(105,198,186);
+}
+.circle i {
+    color: white;
+}
+form {
+    margin-top: 100px;
+    padding: 30px;
+    background-color: white;
+    width: 800px;
+    display: block;
+}
+label {
+    font-size: 12px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 20px;
+}
+.date {
+    margin-top: 40px;
+}
+button {
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: rgb(105,198,186);
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 58px;
+    margin-left: 6px;
+}
+.form-control {
+    display: inline-block;
+    width: 100%;
+    border: none;
+}
+/* Section */
+/* Priority */
+.priority {
+    background-color: rgb(239,239,239);
+    padding: 50px 0;
+}
+.priority h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    word-spacing: 4px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.priority p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.priority strong {
+    font-weight: 700;
+}
+.btn {
+    width: 160px;
+    height: 40px;
+    padding: 8px;
+    background-color: rgb(105,198,186);
+    border: none;
+}
+.btn-white {
+    background-color: white;
+    margin-top: 30px;
+}
+#blue-text {
+    color: rgb(105,198,186);
+    font-size: 13px;
+}
+#rose-text {
+    color: rgb(198,105,149);
+    font-size: 13px;
+}
+#rose-bg {
+    background-color: rgb(198,105,149);
+}
+.btn a {
+    color: white;
+    font-size: 12px;
+}
+/* Section */
+/* Continent */
+.continent {
+    background-color: white;
+}
+.continent img {
+    width: 100%;
+    height: 400px;
+}
+.arrow-box {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .1);
+    margin-right: 5px;
+}
+.arrow-box i {
+    color: black;
+}
+.blue-box {
+    background-color: rgb(105,198,186);
+    padding: 20px;
+    color: white;
+}
+.blue-box h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.blue-box p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.overlap-left {
+    margin-right: 50px;
+}
+.overlap-right {
+    margin-left: 50px;
+}
+/* Places */
+.places {
+    background-color: rgb(105,198,186);
+}
+/* Hotels */
+.hotels {
+    background-color: white;
+    padding: 30px 0;
+}
+.hotel-ad {
+    border: 1px solid rgb(201, 195, 195);
+    margin-bottom: 25px;
+}
+.hotel-info {
+    padding: 0 20px;
+}
+.hotel-info h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.hotel-info h5 {
+    font-size: 15px;
+    color: rgb(198,105,149);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.hotel-info p {
+    font-size: 14px;
+    line-height: 1.2;
+}
+.price {
+    background-color: rgb(105,198,186);
+    width: 290px;
+}
+.price h3 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.price a {
+    color: white;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.location iframe {
+    width: 100%;
+    height: 400px;
+}
+/* Footer */
+.footer {
+    background-color: rgb(105,198,186);
+    height: 50px;
+}
+.footer small {
+    font-size: 12px;
+    color: white;
+}
